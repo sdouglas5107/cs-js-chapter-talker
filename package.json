@@ -1,0 +1,25 @@
+{
+  "name": "cs-js-chapter-talker",
+  "version": "1.0.0",
+  "description": "API to manage topics that will be seen on talks for javascript chapter on CS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sdouglas5107/cs-js-chapter-talker.git"
+  },
+  "keywords": [
+    "test",
+    "unit test",
+    "integration test",
+    "nodejs"
+  ],
+  "author": "Douglas Soares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdouglas5107/cs-js-chapter-talker/issues"
+  },
+  "homepage": "https://github.com/sdouglas5107/cs-js-chapter-talker#readme"
+}
