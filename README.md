@@ -1,11 +1,12 @@
-## Gerenciador de temas para talks do capítulo de javascrip da concrete
+## **Gerenciador de temas para talks do capítulo de javascrip da concrete**
 
-### Requisitos
+### **Requisitos**
 #### 1. Usuário
 * Deve ser com email da concrete;
 * Deve haver o papel do administrador;
 * Administrador será responsável por criar a votação;
 * Cadastro deve ter nome, email e senha.
+
 #### 2. Tema
 * Um usuário pode submeter um temas;
 * Automaticamente atribuir um voto ao tema submetido, esse voto será de quem submeteu, exceto se quem submeteu for administrador, nesse caso o tema ficará sem votos, até que alguém vote nele;
