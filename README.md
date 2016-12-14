@@ -7,8 +7,13 @@
 * Administrador será responsável por criar a votação;
 * Cadastro deve ter nome, email e senha.
 
+#### 2. Talk 
+* Deve ter uma data pra acontecer
+* Deve ser criada por um administrador
+
 #### 2. Tema
-* Um usuário pode submeter um temas;
+* Um usuário pode submeter um temas para uma talk;
+* Somente se a data de criação do tema for menor que 5 dias da data que o talk vai acontecer
 * Automaticamente atribuir um voto ao tema submetido, esse voto será de quem submeteu, exceto se quem submeteu for administrador, nesse caso o tema ficará sem votos, até que alguém vote nele;
 * Usuários podem votar em um único tema;
 * Os temas devem ser listados pela quantidade de votos, em segundo critério, data;

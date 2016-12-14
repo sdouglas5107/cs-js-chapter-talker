@@ -21,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/sdouglas5107/cs-js-chapter-talker/issues"
   },
-  "homepage": "https://github.com/sdouglas5107/cs-js-chapter-talker#readme"
+  "homepage": "https://github.com/sdouglas5107/cs-js-chapter-talker#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongoose": "^4.7.2"
+  }
 }
