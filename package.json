@@ -24,6 +24,7 @@
   "homepage": "https://github.com/sdouglas5107/cs-js-chapter-talker#readme",
   "dependencies": {
     "express": "^4.14.0",
-    "mongoose": "^4.7.2"
+    "mongoose": "^4.7.2",
+    "morgan": "^1.7.0"
   }
 }
