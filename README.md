@@ -1,4 +1,4 @@
-## **Gerenciador de temas para talks do capítulo de javascrip da concrete**
+## **Gerenciador de Assuntos para talks do capítulo de javascrip da concrete**
 
 ### **Requisitos**
 #### 1. Usuário
@@ -11,11 +11,11 @@
 * Deve ter uma data pra acontecer
 * Deve ser criada por um administrador
 
-#### 2. Tema
-* Um usuário pode submeter um temas para uma talk;
-* Somente se a data de criação do tema for menor que 5 dias da data que o talk vai acontecer
-* Automaticamente atribuir um voto ao tema submetido, esse voto será de quem submeteu, exceto se quem submeteu for administrador, nesse caso o tema ficará sem votos, até que alguém vote nele;
-* Usuários podem votar em um único tema;
-* Os temas devem ser listados pela quantidade de votos, em segundo critério, data;
+#### 2. Assunto
+* Um usuário pode submeter um Assuntos para uma talk;
+* Somente se a data de criação do Assunto for menor que 5 dias da data que o talk vai acontecer
+* Automaticamente atribuir um voto ao Assunto submetido, esse voto será de quem submeteu, exceto se quem submeteu for administrador, nesse caso o Assunto ficará sem votos, até que alguém vote nele;
+* Usuários podem votar em um único Assunto;
+* Os Assuntos devem ser listados pela quantidade de votos, em segundo critério, data;
 * 5 Dias antes da data do talk, a votação deve ser encerrada e o que tiver mais votação será a talk eleita;
-* Caso haja empate no número de votos, o tema eleito será aquele que foi criado primeiro.
+* Caso haja empate no número de votos, o Assunto eleito será aquele que foi criado primeiro.
