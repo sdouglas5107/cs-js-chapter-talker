@@ -5,7 +5,11 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "test": "mocha"
+    "test": "mocha",
+    "integration": "mocha test/integration/*.js",
+    "coverage": "istanbul cover node_modules/mocha/bin/_mocha -- -u exports -R spec test/**/*.js",
+    "lint": "./node_modules/.bin/eslint **/*.js",
+    "lint:fix": "./node_modules/.bin/eslint **/*.js --fix"
   },
   "repository": {
     "type": "git",
@@ -24,14 +28,22 @@
   },
   "homepage": "https://github.com/sdouglas5107/cs-js-chapter-talker#readme",
   "dependencies": {
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "mongoose": "^4.7.2",
     "morgan": "^1.7.0"
   },
   "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb-base": "^11.0.0",
+    "eslint-plugin-import": "^2.2.0",
     "gulp": "^3.9.1",
     "gulp-jshint": "^2.0.4",
     "gulp-nodemon": "^2.2.1",
-    "jshint": "^2.9.4"
+    "jshint": "^2.9.4",
+    "mocha": "^3.2.0",
+    "supertest": "^2.0.1"
   }
 }
